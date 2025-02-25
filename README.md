@@ -34,3 +34,34 @@ Specifically, I want to answer the following questions and perform tasks related
 - Can we build a model to pridict the success (eg, wewership, ratings) of a movie or TV show based on its attributes?
 
 By addressing these questions and tasks, the streaming platform can gain insights into its content library, viewer preferences
+
+# Regarding Dataset
+
+About this Dataset: Netflix is one of the most popular media and video streaming platforms. They have over 8000+ movies or tv shows available on their platform, as of mid-2021, thay have over 200M Subscribers globally. This tabular dataser consists of listings of all the movies and tv shows available on Netflix, along with details such as-cast, directors, ratings, release year, duration, etc.
+
+Description of each column in the dataset:
+
+1. show id: A unique identifier for each show or movie.
+
+2. type: The type of content, either "Movie" or TV Show."
+
+3. title: The title of the movie or TV show.
+
+4. director: The director of the movie or TV show. In the first and third entries, this information is not available (NaN).
+
+5. cast: The cast or actors in the movie or TV show in the first entry, this information is not available (NaN). In the second entry, there is a list of actors from the TV show "Blood & Water"
+
+6. country: The country where the movie or TV show was produced or is assocsated with
+
+7. date_added: The date when the content was added to the streaming platform, in the forrnat "Month Day, Year"
+
+8. release year: The year the movie or TV show was origily released.
+
+9. rating: The content's rating, which indicates the recommended audiende age or maturity level (eg., "PD-13" or "TV-MA").
+
+10. duration: The duration of the movie or TV show in the first entry, the duration is given an minutes (190 min") in the second and third entries, it's indicated in the number of seasons ("2 Seasons" and "1 Season")
+
+11. listed in: The genre or category of the content, which can help classify It (e.g., "Documentaries," "International TV Shows," "Crime TV Shows"
+
+12. description: A brief description or synopsis of the movie or TV show, providing an overview of the pint or subject matter
+    
