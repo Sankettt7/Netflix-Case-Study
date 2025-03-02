@@ -1,67 +1,30 @@
-# Netflix Case Study
+# Netflix Case Study Summary
 
-# Problem Statement
+# Objective
+The study aims to analyze and predict the success of movies and TV shows on Netflix based on attributes such as type, title, director, cast, country, date added, release year, rating, duration, and genre. The goal is to extract insights into content popularity and user preferences.
 
-Analyze and predict the viewership and success of movies and TV shows on a streaming platform based on various attributes such as type, title, director, cast, country, date added, reinase year, rating, duration, listed in, and description
-
-Specifically, I want to answer the following questions and perform tasks related to this dataset:
-
-
+# Key Analyses Conducted:
 1. Viewership and Popularity Analysis:
+    - Identifying whether movies or TV shows are more popular.
+    - Analyzing the contribution of different countries to Netflix’s content library.
+    - Examining how release year impacts content popularity.
 
-- What are the most popular types of content on the platform (Movies or TV Shows)?
-
--  Which countres contribute the most content?
-
-- Does the release year affect the popularity of content?
-
-2. Content Duration Analysis:
-
-- Are there any trends in content duration over the years?
+2. Content Duration Trends:
+    - Investigating whether content duration has changed over the years.
 
 3. Genre Analysis:
+    - Identifying the most common genres on Netflix.
+    - Detecting trends in the popularity of specific genres.
 
-- Which genres are most prevalent on the platform?
-
-- Are there any trends in the popularity of specific genres?
-
-4. Country Analysis:
-
-- Do viewers have a preference for content from certain countries?
+4. Country-Based Viewer Preferences:
+    - Exploring whether certain countries’ content is more popular.
 
 5. Predictive Modeling:
+    - Developing a model to predict a title’s success (e.g., viewership, ratings) based on its attributes.
 
-- Can we build a model to pridict the success (eg, wewership, ratings) of a movie or TV show based on its attributes?
+# Dataset Overview:
+The dataset contains details of Netflix’s movie and TV show listings, including show ID, type, title, director, cast, country, date added, release year, rating, duration, genre, and description.
+Netflix, with over 200M global subscribers and 8,000+ titles (as of mid-2021), provides a diverse catalog of entertainment content.
 
-By addressing these questions and tasks, the streaming platform can gain insights into its content library, viewer preferences
-
-# Regarding Dataset
-
-About this Dataset: Netflix is one of the most popular media and video streaming platforms. They have over 8000+ movies or tv shows available on their platform, as of mid-2021, thay have over 200M Subscribers globally. This tabular dataser consists of listings of all the movies and tv shows available on Netflix, along with details such as-cast, directors, ratings, release year, duration, etc.
-
-Description of each column in the dataset:
-
-1. show id: A unique identifier for each show or movie.
-
-2. type: The type of content, either "Movie" or TV Show."
-
-3. title: The title of the movie or TV show.
-
-4. director: The director of the movie or TV show. In the first and third entries, this information is not available (NaN).
-
-5. cast: The cast or actors in the movie or TV show in the first entry, this information is not available (NaN). In the second entry, there is a list of actors from the TV show "Blood & Water"
-
-6. country: The country where the movie or TV show was produced or is assocsated with
-
-7. date_added: The date when the content was added to the streaming platform, in the forrnat "Month Day, Year"
-
-8. release year: The year the movie or TV show was origily released.
-
-9. rating: The content's rating, which indicates the recommended audiende age or maturity level (eg., "PD-13" or "TV-MA").
-
-10. duration: The duration of the movie or TV show in the first entry, the duration is given an minutes (190 min") in the second and third entries, it's indicated in the number of seasons ("2 Seasons" and "1 Season")
-
-11. listed in: The genre or category of the content, which can help classify It (e.g., "Documentaries," "International TV Shows," "Crime TV Shows"
-
-12. description: A brief description or synopsis of the movie or TV show, providing an overview of the pint or subject matter
-    
+# Conclusion:
+By analyzing this data, the study helps Netflix optimize content strategy, understand viewer behavior, and improve recommendations. Predictive modeling further enhances decision-making by identifying key factors influencing content success.
